@@ -794,3 +794,334 @@ footer div{
         min-width: 100%;
     }
 }
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+/* Tablets y pantallas medianas (hasta 1024px) */
+@media (max-width: 1024px) {
+    /* Header */
+    #section-info img {
+        margin-right: 50px;
+        height: 60px;
+    }
+    
+    /* Top section */
+    #top-section div {
+        margin-top: 300px;
+        margin-left: 30px;
+        max-width: 80%;
+    }
+    
+    #top-section div h1 {
+        font-size: 40px;
+    }
+    
+    /* Second section */
+    #second-section h1 {
+        font-size: 50px;
+        padding: 30px 30px;
+    }
+    
+    #second-section h2 {
+        padding: 100px 10px 20px 40px;
+    }
+    
+    #double-section {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+    
+    #double-section-text {
+        max-width: 100%;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    
+    #double-section-text h3, #double-section-text p {
+        font-size: 24px;
+    }
+    
+    #double-section-img {
+        width: 100%;
+    }
+    
+    #double-section-img img {
+        width: 100%;
+    }
+    
+    /* Services section */
+    #services-section > h1 {
+        font-size: 36px;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .services-image {
+        min-height: 300px;
+        padding: 40px;
+    }
+    
+    .services-list summary {
+        font-size: 20px;
+    }
+    
+    /* Proceso section */
+    #proceso-section > div > h1 {
+        font-size: 36px;
+    }
+    
+    .proceso-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .proceso-text {
+        max-width: 100%;
+    }
+    
+    /* Sobre nosotros */
+    .sobre-title {
+        font-size: 36px;
+    }
+    
+    .team-member {
+        min-width: calc(33.333% - 14px);
+    }
+}
+
+/* Móviles y pantallas pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+    /* Header */
+    header {
+        padding-top: 15px;
+    }
+    
+    #section-info {
+        flex-direction: column;
+        gap: 15px;
+        padding: 0 20px;
+    }
+    
+    #section-info img {
+        margin-right: 0;
+        height: 50px;
+        order: -1;
+    }
+    
+    #agenda-cita {
+        padding: 10px;
+        height: auto;
+    }
+    
+    /* Top section */
+    #top-section div {
+        margin-top: 200px;
+        margin-left: 20px;
+        margin-right: 20px;
+        max-width: 90%;
+    }
+    
+    #top-section div h1 {
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    
+    /* Second section */
+    #second-section h1 {
+        font-size: 36px;
+        padding: 20px;
+    }
+    
+    #second-section h2 {
+        padding: 60px 20px 20px 20px;
+        font-size: 18px;
+    }
+    
+    #double-section {
+        padding: 10px;
+    }
+    
+    #double-section-text h3 {
+        font-size: 20px;
+    }
+    
+    #double-section-text p {
+        font-size: 16px;
+    }
+    
+    .agenda-llamada {
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    #big-img-section {
+        margin-top: 100px;
+    }
+    
+    #big-img-section img {
+        max-width: 100%;
+        margin: 15px;
+    }
+    
+    /* Services section */
+    #services-section {
+        padding: 40px 15px;
+    }
+    
+    #services-section > h1 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    
+    #services-section > p {
+        font-size: 12px;
+    }
+    
+    .services-image {
+        min-height: 250px;
+        padding: 30px;
+    }
+    
+    .services-image-text p:first-child {
+        font-size: 18px;
+    }
+    
+    .services-image-text p:last-child {
+        font-size: 22px;
+    }
+    
+    .services-list summary {
+        font-size: 18px;
+    }
+    
+    .services-list summary span {
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+    
+    .services-cta a {
+        padding: 15px 30px;
+        font-size: 14px;
+        display: block;
+        text-align: center;
+    }
+    
+    /* Proceso section */
+    #proceso-section {
+        padding: 60px 15px;
+    }
+    
+    #proceso-section > div > h1 {
+        font-size: 28px;
+        margin-bottom: 40px;
+    }
+    
+    #proceso-section > div > p {
+        font-size: 12px;
+    }
+    
+    .proceso-text p {
+        font-size: 16px;
+    }
+    
+    .proceso-text a {
+        padding: 15px 30px;
+        font-size: 14px;
+        display: block;
+        text-align: center;
+    }
+    
+    /* Sobre nosotros */
+    #sobre-nosotros {
+        padding: 60px 15px;
+    }
+    
+    .sobre-title {
+        font-size: 28px;
+    }
+    
+    .sobre-subtitle {
+        font-size: 12px;
+    }
+    
+    .sobre-description p {
+        font-size: 16px;
+    }
+    
+    .team-member {
+        min-width: calc(50% - 10px);
+    }
+    
+    .carousel-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
+    
+    .member-info {
+        bottom: 10px;
+        left: 10px;
+    }
+    
+    .member-info h3 {
+        font-size: 16px;
+    }
+    
+    .member-info p {
+        font-size: 12px;
+    }
+}
+
+/* Móviles muy pequeños (hasta 480px) */
+@media (max-width: 480px) {
+    #top-section div h1 {
+        font-size: 24px;
+    }
+    
+    #second-section h1 {
+        font-size: 28px;
+        padding: 15px;
+    }
+    
+    #double-section-text h3 {
+        font-size: 18px;
+    }
+    
+    #double-section-text p {
+        font-size: 14px;
+    }
+    
+    #services-section > h1 {
+        font-size: 24px;
+    }
+    
+    .services-list summary {
+        font-size: 16px;
+    }
+    
+    #proceso-section > div > h1 {
+        font-size: 24px;
+    }
+    
+    .sobre-title {
+        font-size: 24px;
+    }
+    
+    .team-member {
+        min-width: 100%;
+    }
+    
+    .team-carousel {
+        gap: 10px;
+    }
+    
+    .carousel-btn {
+        width: 35px;
+        height: 35px;
+        font-size: 18px;
+    }
+}
